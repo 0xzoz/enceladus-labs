@@ -79,7 +79,7 @@ iframe {
   </div>
   <div class="top-container">
     <div class="title">0L Moonshot Program</div>
-    <a href="https://enceladus.deform.cc/apply"><button class="apply-button"  >Apply</button></a>
+    <a href="https://apply.enceladus.life"><button class="apply-button"  >Apply</button></a>
   </div>
   <img src="logo.svg" alt="Enceladus Labs Inc Logo" class="bottom-logo">
 
