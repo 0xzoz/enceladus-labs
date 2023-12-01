@@ -68,10 +68,16 @@ iframe {
         bottom: 10px;
         transform: translateX(-50%);
         /* Adjust width and height as needed */
-        width: 150px;
+        width: 100px;
         height: auto;
         z-index: 10; /* Make sure it's above other elements if needed */
+        transition: transform 0.3s ease; /* Ensure smooth transition */
+        transform-origin: center; /* Set the origin of transformation */
     }
+
+.bottom-logo:hover {
+  transform: translateX(-50%) scale(1.2); /* Scale and keep centered */
+}
   </style>
   
   <div class="sketchfab-embed-wrapper">
@@ -81,7 +87,8 @@ iframe {
     <div class="title">0L Moonshot Program</div>
     <a href="https://apply.enceladus.life"><button class="apply-button"  >Apply</button></a>
   </div>
-  <img src="logo.svg" alt="Enceladus Labs Inc Logo" class="bottom-logo">
-
+  <a href="https://github.com/enceladus-labs" target="_blank">
+    <img src="logo.svg" alt="Enceladus Labs Inc Logo" class="bottom-logo">
+</a>
 
   
